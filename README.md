@@ -2,7 +2,7 @@
 
 A comprehensive comparison of three state-of-the-art deep learning models for whole-body CT scan segmentation: TotalSegmentator, MedIM STU-Net, and MONAI Whole Body CT Segmentation.
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Overview](#overview)
 - [Models Implemented](#models-implemented)
 - [Features](#features)
@@ -15,7 +15,7 @@ A comprehensive comparison of three state-of-the-art deep learning models for wh
 - [Requirements](#requirements)
 - [Acknowledgments](#acknowledgments)
 
-## 🔬 Overview
+##  Overview
 
 This project implements and compares three different deep learning approaches for automated organ segmentation from whole-body CT scans. The system can segment over 100 anatomical structures including organs, bones, muscles, and blood vessels.
 
@@ -25,7 +25,7 @@ This project implements and compares three different deep learning approaches fo
 - Disease diagnosis and monitoring
 - Medical research and education
 
-## 🤖 Models Implemented
+##  Models Implemented
 
 ### 1. TotalSegmentator
 - **Framework**: nnU-Net based
@@ -45,7 +45,7 @@ This project implements and compares three different deep learning approaches fo
 - **Strengths**: Memory-efficient sliding window inference, robust postprocessing
 - **Notebook**: `model3.py`
 
-## ✨ Features
+##  Features
 
 - **Multi-model comparison**: Evaluate different segmentation approaches
 - **3D Visualization**: Interactive PyVista-based 3D rendering of segmented organs
@@ -54,7 +54,7 @@ This project implements and compares three different deep learning approaches fo
 - **Organ Grouping**: Organized visualization by organ systems (lungs, vertebrae, muscles, etc.)
 - **Postprocessing**: Advanced morphological operations for cleaner segmentation
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -75,7 +75,7 @@ pip install medim pandas tqdm
 jupyter nbextension enable --py widgetsnbextension
 ```
 
-## 📊 Dataset
+##  Dataset
 
 The project uses CT scan data with the following structure:
 
@@ -97,7 +97,7 @@ CT_subset_big/
 !unzip -o CT_subset_big.zip
 ```
 
-## 🚀 Usage
+##  Usage
 
 ### 1. TotalSegmentator Model
 
@@ -154,7 +154,7 @@ output = sliding_window_inference(
 )
 ```
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 The project computes three key metrics:
 
@@ -175,7 +175,7 @@ The project computes three key metrics:
 - Abdominal organs
 - Cardiovascular structures
 
-## 🎨 Results Visualization
+##  Results Visualization
 
 ### 3D Interactive Visualization
 - PyVista-based 3D rendering
@@ -205,7 +205,7 @@ slider = widgets.IntSlider(
 )
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -219,7 +219,7 @@ slider = widgets.IntSlider(
 └── evaluation_results_filtered.csv  # Quantitative metrics
 ```
 
-## 📦 Requirements
+##  Requirements
 
 ```
 nibabel>=4.0.0
@@ -239,7 +239,7 @@ pandas>=1.4.0
 tqdm>=4.64.0
 ```
 
-## 🎯 Key Results
+##  Key Results
 
 Performance comparison across models (average metrics):
 
@@ -251,7 +251,7 @@ Performance comparison across models (average metrics):
 
 *Note: Actual metrics vary by dataset and organ type*
 
-## 🔧 Advanced Features
+##  Advanced Features
 
 ### Postprocessing Pipeline
 - Binary morphological operations (closing, opening)
@@ -265,7 +265,7 @@ Performance comparison across models (average metrics):
 - CPU/GPU memory management
 - Empty file filtering
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Areas for improvement:
 - Additional segmentation models
@@ -273,18 +273,18 @@ Contributions are welcome! Areas for improvement:
 - Performance optimization
 - Extended evaluation metrics
 
-## 📄 License
+##  License
 
 This project is for educational and research purposes. Please cite the original model papers when using:
 - TotalSegmentator
 - MONAI
 - MedIM/STU-Net
 
-## 👥 Authors
+##  Authors
 
 Team 11 - Medical Image Segmentation Project
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - TotalSegmentator team for the comprehensive segmentation framework
 - MONAI consortium for the medical imaging library
