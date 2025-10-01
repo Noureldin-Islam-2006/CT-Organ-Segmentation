@@ -1,4 +1,4 @@
-# Medical CT Image Segmentation Models
+# Medical CT Image Segmentation 3D Models
 
 A comprehensive comparison of three state-of-the-art deep learning models for whole-body CT scan segmentation: TotalSegmentator, MedIM STU-Net, and MONAI Whole Body CT Segmentation.
 
